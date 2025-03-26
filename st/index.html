@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/style.css">
+  <title>Home Page V2</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="container__nav" id="main-menu">
+        <svg class="logo container__nav__img" width="67" height="21" viewBox="0 0 67 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20.596 0.539999V20H17.404V6.672L11.468 20H9.256L3.292 6.672V20H0.1V0.539999H3.544L10.376 15.8L17.18 0.539999H20.596ZM27.9554 0.539999V12.944C27.9554 14.4187 28.3381 15.5293 29.1034 16.276C29.8874 17.0227 30.9701 17.396 32.3514 17.396C33.7514 17.396 34.8341 17.0227 35.5994 16.276C36.3834 15.5293 36.7754 14.4187 36.7754 12.944V0.539999H39.9674V12.888C39.9674 14.4747 39.6221 15.8187 38.9314 16.92C38.2407 18.0213 37.3167 18.8427 36.1594 19.384C35.0021 19.9253 33.7234 20.196 32.3234 20.196C30.9234 20.196 29.6447 19.9253 28.4874 19.384C27.3487 18.8427 26.4434 18.0213 25.7714 16.92C25.0994 15.8187 24.7634 14.4747 24.7634 12.888V0.539999H27.9554ZM55.8554 16.024H47.7074L46.3074 20H42.9754L49.9474 0.511999H53.6434L60.6154 20H57.2554L55.8554 16.024ZM54.9594 13.42L51.7954 4.376L48.6034 13.42H54.9594ZM66.8389 0.539999V20H63.6469V0.539999H66.8389Z" fill="#FC552F"/>
+        </svg>
+        <div class="container__nav__links">
+          <a href="#" class="container__nav__links__link">Home</a>
+          <a href="#" class="container__nav__links__link">Pricing</a>
+          <a href="#" class="container__nav__links__link">About</a>
+          <a href="#" class="container__nav__links__link">Contact</a>
+        </div>
+        <button class="btn container__nav__btn">Get Started</button>
+      </nav>
+      
+      <div class="hamburger-menu">
+        <svg class="hamburger-menu__logo" width="67" height="21" viewBox="0 0 67 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20.596 0.539999V20H17.404V6.672L11.468 20H9.256L3.292 6.672V20H0.1V0.539999H3.544L10.376 15.8L17.18 0.539999H20.596ZM27.9554 0.539999V12.944C27.9554 14.4187 28.3381 15.5293 29.1034 16.276C29.8874 17.0227 30.9701 17.396 32.3514 17.396C33.7514 17.396 34.8341 17.0227 35.5994 16.276C36.3834 15.5293 36.7754 14.4187 36.7754 12.944V0.539999H39.9674V12.888C39.9674 14.4747 39.6221 15.8187 38.9314 16.92C38.2407 18.0213 37.3167 18.8427 36.1594 19.384C35.0021 19.9253 33.7234 20.196 32.3234 20.196C30.9234 20.196 29.6447 19.9253 28.4874 19.384C27.3487 18.8427 26.4434 18.0213 25.7714 16.92C25.0994 15.8187 24.7634 14.4747 24.7634 12.888V0.539999H27.9554ZM55.8554 16.024H47.7074L46.3074 20H42.9754L49.9474 0.511999H53.6434L60.6154 20H57.2554L55.8554 16.024ZM54.9594 13.42L51.7954 4.376L48.6034 13.42H54.9594ZM66.8389 0.539999V20H63.6469V0.539999H66.8389Z" fill="#FC552F"/>
+        </svg>
+        <div class="hamburger-menu__bars" onclick="toggleMenu()">
+          <svg class="hamburger-menu__bars__bar1" width="22" height="3" viewBox="0 0 22 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2 1.5L20 1.5" stroke="#07070C" stroke-width="3" stroke-linecap="round"/>
+            </svg>
+          <svg class="hamburger-menu__bars__bar2" width="22" height="3" viewBox="0 0 22 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2 1.5L20 1.5" stroke="#07070C" stroke-width="3" stroke-linecap="round"/>
+          </svg>                          
+        </div>
+      </div>
+      <script>
+        function toggleMenu() {
+        var menu = document.getElementById("main-menu");
+        menu.classList.toggle("show-menu");
+      }
+      </script>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="hero">
+      <div class="container">
+        <div class="container__hero">
+          <h1 class="container__hero__title">Simplify your work <br> with AI tool</h1>
+          <p class="container__hero__descr">Unleash the power of AI within Brainwave. Upgrade your productivity with Brainwave, the open AI chat app.</p>
+          <div class="container__hero__btns">
+            <button class="btn container__hero__btns__btn1">Get Started Free</button>
+            <button class="btn container__hero__btns__btn2">Explore</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="whylove">
+      <div class="container">
+        <div class="container__whylove">
+          <h2 class="container__whylove__title">why customers <span class="loveus-color">love us</span></h2>
+          <div class="container__whylove__cards">
+            <div class="container__whylove__cards__card">
+              <p class="container__whylove__cards__card__title">Musideri</p>
+              <p class="container__whylove__cards__card__descr">I recently used an AI chat system and it exceeded my expectations. The speed and accuracy of the responses were impressive, and the personalized recommendations w</p>
+            </div>
+            <div class="container__whylove__cards__card">
+              <p class="container__whylove__cards__card__title">Ghozi Arslan</p>
+              <p class="container__whylove__cards__card__descr">I recently used an AI chat system and it exceeded my expectations. The speed and accuracy of the responses were impressive, and the personalized recommendations w</p>
+            </div>
+            <div class="container__whylove__cards__card">
+              <p class="container__whylove__cards__card__title">Pakde Siti</p>
+              <p class="container__whylove__cards__card__descr">I recently used an AI chat system and it exceeded my expectations. The speed and accuracy of the responses were impressive, and the personalized recommendations w</p>
+            </div>
+            <div class="container__whylove__cards__card">
+              <p class="container__whylove__cards__card__title">Nandarea</p>
+              <p class="container__whylove__cards__card__descr">I recently used an AI chat system and it exceeded my expectations. The speed and accuracy of the responses were impressive, and the personalized recommendations w</p>
+            </div>
+            <div class="container__whylove__cards__card">
+              <p class="container__whylove__cards__card__title">Muklisea</p>
+              <p class="container__whylove__cards__card__descr">I recently used an AI chat system and it exceeded my expectations. The speed and accuracy of the responses were impressive, and the personalized recommendations w</p>
+            </div>
+            <div class="container__whylove__cards__card">
+              <p class="container__whylove__cards__card__title">Mumuh lis</p>
+              <p class="container__whylove__cards__card__descr">I recently used an AI chat system and it exceeded my expectations. The speed and accuracy of the responses were impressive, and the personalized recommendations w</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq">
+      <div class="container">
+        <div class="block">
+          <div class="container__faq">
+            <div class="container__faq__block-title">
+              <h2><div class="container__faq__block-title__title">FAQs Frequently Asked Questions!</div></h2>
+              <div class="container__faq__block-title__descr">Need  Any Help? Send us a message using the form below <br> and we'll get back to you promptly!</div>
+            </div>
+            <div class="container__faq__block-question">
+              <details class="container__faq__block-question__card">
+                <summary class="container__faq__block-question__card__title"><span class="temp" onclick="toggleFAQ()"></span>How easy is it to setup AITool?</summary>
+                <div class="container__faq__block-question__card__descr">
+                  We accept various payment methods, including major credit cards (Visa, Mastercard, American Express), PayPal, and direct bank transfers. You can choose the most convenient option during the checkout process.
+                </div>
+              </details>
+              <details class="container__faq__block-question__card">
+                <summary class="container__faq__block-question__card__title"><span class="temp" onclick="toggleFAQ()"></span>What your refund policy?</summary>
+                <div class="container__faq__block-question__card__descr">
+                  We accept various payment methods, including major credit cards (Visa, Mastercard, American Express), PayPal, and direct bank transfers. You can choose the most convenient option during the checkout process.
+                </div>
+              </details>
+              <details class="container__faq__block-question__card">
+                <summary class="container__faq__block-question__card__title"><span class="temp" onclick="toggleFAQ()"></span>Can I integrate AITool with other platforms?</summary>
+                <div class="container__faq__block-question__card__descr">
+                  We accept various payment methods, including major credit cards (Visa, Mastercard, American Express), PayPal, and direct bank transfers. You can choose the most convenient option during the checkout process.
+                </div>
+              </details>
+              <details class="container__faq__block-question__card">
+                <summary class="container__faq__block-question__card__title"><span class="temp" onclick="toggleFAQ()"></span>Do you have corporate plans?</summary>
+                <div class="container__faq__block-question__card__descr">
+                  We accept various payment methods, including major credit cards (Visa, Mastercard, American Express), PayPal, and direct bank transfers. You can choose the most convenient option during the checkout process.
+                </div>
+              </details>
+              <details class="container__faq__block-question__card">
+                <summary class="container__faq__block-question__card__title"><span class="temp" onclick="toggleFAQ()"></span>How often do you add new content?</summary>
+                <div class="container__faq__block-question__card__descr">
+                  We accept various payment methods, including major credit cards (Visa, Mastercard, American Express), PayPal, and direct bank transfers. You can choose the most convenient option during the checkout process.
+                </div>
+              </details>
+              <details class="container__faq__block-question__card">
+                <summary class="container__faq__block-question__card__title"><span class="temp" onclick="toggleFAQ()"></span>Can I cancel my subscription at any time?</summary>
+                <div class="container__faq__block-question__card__descr">
+                  We accept various payment methods, including major credit cards (Visa, Mastercard, American Express), PayPal, and direct bank transfers. You can choose the most convenient option during the checkout process.
+                </div>
+              </details>
+              
+              <script>
+                document.querySelectorAll('.container__faq__block-question__card').forEach((elem) => {
+                  elem.addEventListener('click', function(){
+                    this.querySelector('.temp').classList.toggle('rotate');
+                  });
+                });
+              </script>
+            </div>
+            <div class="container__faq__block-help">
+              <div class="container__faq__block-help__left">
+                <div class="container__faq__block-help__left__title">Still Need Help?</div>
+                <div class="container__faq__block-help__left__descr">Can't find the answer here?  Message us for help!</div>
+              </div>
+              <div class="container__faq__block-help__right">
+                <button class="btn container__faq__block-help__right__btn">Shoot Us A Message!</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="container__footer">
+        <div class="container__footer__up">
+          <svg class="logo container__footer__up__logo" width="68" height="21" viewBox="0 0 68 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M21.096 0.539999V20H17.904V6.672L11.968 20H9.756L3.792 6.672V20H0.6V0.539999H4.044L10.876 15.8L17.68 0.539999H21.096ZM28.4554 0.539999V12.944C28.4554 14.4187 28.8381 15.5293 29.6034 16.276C30.3874 17.0227 31.4701 17.396 32.8514 17.396C34.2514 17.396 35.3341 17.0227 36.0994 16.276C36.8834 15.5293 37.2754 14.4187 37.2754 12.944V0.539999H40.4674V12.888C40.4674 14.4747 40.1221 15.8187 39.4314 16.92C38.7407 18.0213 37.8167 18.8427 36.6594 19.384C35.5021 19.9253 34.2234 20.196 32.8234 20.196C31.4234 20.196 30.1447 19.9253 28.9874 19.384C27.8487 18.8427 26.9434 18.0213 26.2714 16.92C25.5994 15.8187 25.2634 14.4747 25.2634 12.888V0.539999H28.4554ZM56.3554 16.024H48.2074L46.8074 20H43.4754L50.4474 0.511999H54.1434L61.1154 20H57.7554L56.3554 16.024ZM55.4594 13.42L52.2954 4.376L49.1034 13.42H55.4594ZM67.3389 0.539999V20H64.1469V0.539999H67.3389Z" fill="white"/>
+          </svg>
+          <div class="container__footer__up__links">
+            <a href="#" class="container__footer__up__links__link">Home</a>
+            <a href="#" class="container__footer__up__links__link">Pricing</a>
+            <a href="#" class="container__footer__up__links__link">About</a>
+            <a href="#" class="container__footer__up__links__link">Contact</a>
+            <button class="btn mobile__btn">Get Started</button>
+          </div>
+          <div class="container__footer__up__contacts">
+            <a href="#" class="block__"><div class="contact1 contacts">Java, Indonesia</div></a>
+            <a href="mailto:Yourmail@mail.com" class="block__"><div class="contact2 contacts">Yourmail@mail.com</div></a>
+            <a href="#" class="block__"><div class="contact3 contacts">Your Instagram</div></a>
+          </div>
+        </div>
+        <div class="container__footer__line">
+          <hr class="line">
+        </div>
+        <div class="container__footer__down">
+          <h2 class="container__footer__down__title">Join to get free updates every week.</h2>
+          <div class="container__footer__down__input">
+            <input class="input" type="email" placeholder="Email Address" required>
+            <button class="btn footer__btn">Subscribe</button>
+          </div> 
+        </div>
+        <div class="container__footer__bottom">
+          <div>©2023 MUAI</div>
+          <div>All Rights Reserved</div>
+          <div class="temp3">Privacy Policy I Terms Of Service</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
